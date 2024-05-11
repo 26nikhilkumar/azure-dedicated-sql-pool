@@ -10,9 +10,9 @@ there are 2 options to load the data from datalake
 
 ----------------------------
 
-1) Polybase
+## 1) Polybase
 
-Step 1 - 
+### Step 1 - 
 First we should create an external table in dedicated sql pool 
 - Data Source
 - External File format
@@ -51,7 +51,7 @@ WITH (
 )
 GO
 
-Step 2-
+### Step 2-
 CTAS
 
 Create table internal_table as 
@@ -72,7 +72,7 @@ DBCC PDW_SHOWSPACEUSED('orders_internal_roundrobin')
 
 -----------------------
 
-2) Copy command
+## 2) Copy command
 
 CREATE table orders_internal_HASH
   WITH
