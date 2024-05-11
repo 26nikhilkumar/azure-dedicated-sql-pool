@@ -1,0 +1,1 @@
+# azure-dedicated-sql-pool
