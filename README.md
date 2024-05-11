@@ -8,6 +8,7 @@ there are 2 options to load the data from datalake
 1. Polybase
 2. Copy command
 
+----------------------------
 
 1) Polybase
 
